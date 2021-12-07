@@ -1,0 +1,450 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Rubik', sans-serif;
+    max-width: 1440px;
+    max-height: 800px;
+}
+.container{
+    width: 1440px;
+    height: 800px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: hsl(0, 0%, 100%);
+    justify-content: space-between;
+    overflow: hidden;
+}
+.purple-background-left{
+    position: absolute;
+    background-image: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    left: -69px;
+    height: 700px;
+    width: 490px;
+    border-radius: 0px 0px 400px 400px;
+}
+.right-backgroud {
+    position: absolute;
+    background-image: linear-gradient(hsl(264, 33%, 97%), hsl(290, 43%, 97%));
+    top: 115px;
+    right: -1px;
+    height: 700px;
+    width: 300px;
+    border-radius: 400px 0px 0px 0px;
+}
+/*Phone*/
+.phone {
+    top: 150px;
+    left: 363px;
+    position: relative;
+    height: 490px;
+    width: 230px;
+    border: 10px solid hsl(0, 0%, 100%);
+    border-radius: 30px;
+    box-shadow: 18px 10px 70px hsl(268, 16%, 84%);
+    z-index: 1;
+}
+.phone .screen{
+    background-color: hsl(270, 20%, 96%);
+    height: 490px;
+    width: 231px;
+    border-radius: 20px;
+}
+.camFront{
+    position: relative;
+    bottom: 9px;
+    left: 54px;
+    width: 132px;
+    height: 28px;
+    background-color: hsl(0, 0%, 100%);
+    z-index: 1;
+    border-radius: 20px;
+}
+.talking-with{
+    position: relative;
+    background-image: linear-gradient(to right, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    bottom: 30px;
+    height: 65px;
+    width: 231px;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 0px 2px 10px rgba(200, 200, 200, 0.8);
+    margin-bottom: 0px;
+}
+.talking-with .arrow{
+    position: relative;
+    top: 32px;
+    left: 23px;
+    font-size: 15px;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.avatar {
+    position: relative;
+    top: 12px;
+    left: 35px;
+}
+.avatar img{
+    display: block;
+    width: 22px;
+    height: auto;
+    border-radius: 100%;
+    border: 1px solid white;
+}
+.talking-with h2{
+    position: relative;
+    bottom: 18px;
+    left: 65px;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 12px;
+    color: white;
+}
+.talking-with p{
+    position: relative;
+    left: 70px;
+    bottom: 18px;
+    font-size: 10px;
+    color: hsl(276, 100%, 81%);
+}
+.talking-with .three-points{
+    position: relative;
+    font-size: 15px;
+    top: 75px;
+    left: 220px;
+    color: hsl(0, 0%, 100%);
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+.screen .the-dog-walker{
+    position: relative;
+    top: -10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    height: auto;
+    width: 130px;
+    color: hsl(276, 55%, 52%);
+    background-color: hsl(0, 0%, 90%);
+    border-radius: 15px 10px 10px 0px;
+}
+.dogs-photos{
+    position: relative;
+    left: 90px;
+    margin-bottom: 5px;
+}
+.dogs-photos img{
+    width: 40px;
+    height: auto;
+    border-radius: 10px;
+}
+.screen .dog-owner{
+    position: relative;
+    left: 80px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    height: auto;
+    max-width: 130px;
+    min-width: 80px;
+    color: hsl(271, 15%, 43%);
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px 10px 0px 10px;
+}
+.screen .p2 {
+    left: 120px;
+    width: 90px;
+}
+.screen .p3 {
+    top: 0.2px;
+}
+.dog-owner p,
+.the-dog-walker p {
+    padding: 10px;
+    font-size: 8px;
+}
+.walk-price{
+    margin: 5px;
+    height: 33px;
+    width: 160px;
+    background-image: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    border-radius: 10px 10px 10px 0px;
+}
+.walk-price .circleText{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    height: 10px;
+    width: 10px;
+    border: 0.5px dotted hsl(289, 100%, 72%);
+    border-radius: 100%;
+}
+.walk-price p{
+    position: relative;
+    left: 20px;
+    bottom: 12px;
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 11px;
+    color: #FFBFFF;
+}
+.walk-price .price{
+    position: relative;
+    bottom: 45px;
+    left: 110px;
+    color: hsl(0, 0%, 100%);
+    font-size: 12px;
+    font-weight: bold;
+}
+.type-a-message{
+    position: relative;
+    left: 10px;
+    top: 10px;
+    height: 40px;
+    width: 210px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+.type-a-message p{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    font-size: 10px;
+    color: hsl(206, 6%, 79%);
+}
+.black-arrow{
+    position: relative;
+    top: -5px;
+    bottom: 5px;
+    left: 175px;
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    background: hsl(271, 36%, 24%);
+}
+.black-arrow p{
+    position: relative;
+    left: 1px;
+    text-align: center;
+    top: 1px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    font-family: fantasy;
+}
+
+.simple-booking{
+    height: 200px;
+    width: 470px;
+    position: absolute;
+    background-color: transparent;
+    bottom: 290px;
+    left: 735px;
+    z-index: 1;
+}
+.simple-booking h1 {
+    font-size: 39px;
+    color: hsl(271, 36%, 24%);
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.simple-booking p {
+    line-height: 26px;
+    font-size: 15px;
+    color: hsl(270, 7%, 64%);
+    letter-spacing: 1px;
+}
+.attribution {
+    position: relative;
+    top: 700px;
+    left: 150px;
+}
+
+
+/*Animation chat*/
+.phone{
+    animation: movePhone 3s;
+}
+
+@keyframes movePhone {
+    from {top: -500px;}
+    to {top: 170px;}
+}
+
+#msj1 {
+    animation: chatLive2 1s linear;
+    opacity: 1;
+    transition: all;
+}
+
+@keyframes chatLive1 {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#msj2 {
+    animation: chatLive2 3s linear;
+    opacity: 1;
+    transition: all;
+}
+
+@keyframes chatLive2 {
+    0% {
+        opacity: 0;
+
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#dog {
+    animation: chatLive3 6s linear;
+    opacity: 1;
+    transition: all;
+}
+
+@keyframes chatLive3 {
+    0% {
+        opacity: 0;
+
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    60% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#msj3 {
+    animation: chatLive2 8s linear;
+    opacity: 1;
+    transition: all;
+}
+
+@keyframes chatLive2 {
+    0% {
+        opacity: 0;
+
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    60% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#msj4 {
+    animation: chatLive2 10s linear;
+    opacity: 1;
+    transition: all;
+}
+
+@keyframes chatLive2 {
+    0% {
+        opacity: 0;
+
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    60% {
+        opacity: 1;
+    }
+
+    70% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#msj5 {
+    animation: chatLive2 12s linear;
+    opacity: 1;
+    transition: all;
+}
+
+@keyframes chatLive2 {
+    0% {
+        opacity: 0;
+
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    60% {
+        opacity: 1;
+    }
+
+    70% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#msj6 {
+    animation: chatLive2 14s linear;
+    opacity: 1;
+    transition: all;
+}
+
+@keyframes chatLive2 {
+    0% {
+        opacity: 0;
+
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    60% {
+        opacity: 1;
+    }
+
+    70% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
