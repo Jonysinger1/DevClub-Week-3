@@ -262,22 +262,73 @@
 
 
 /*Animation chat*/
+.purple-background-left{
+    animation: leftBackroud 4s;
+}
+
+@keyframes leftBackroud {
+    from {left: -700px;}
+    0% {
+        opacity: 0;
+    }
+    10%{opacity: 10%;}
+    20%{opacity: 30%;}
+    30%{opacity: 50%;}
+    40%{opacity: 60%;}
+    50%{opacity: 70%;}
+    60%{opacity: 90%;}
+    100%{opacity: 100%;}
+    
+}
+.right-backgroud{
+    animation: rightBackroud 4s;
+}
+
+@keyframes rightBackroud {
+    from {right: -700px;}
+    0% {
+        opacity: 0;
+    }
+    10%{opacity: 10%;}
+    20%{opacity: 30%;}
+    30%{opacity: 50%;}
+    40%{opacity: 60%;}
+    50%{opacity: 70%;}
+    60%{opacity: 90%;}
+    100%{opacity: 100%;}
+    
+}
+
 .phone{
     animation: movePhone 3s;
 }
 
 @keyframes movePhone {
-    from {top: -500px;}
-    to {top: 170px;}
+    from {left: -700px;}
+    0% {
+        opacity: 0;
+    }
+    10%{opacity: 10%;}
+    20%{opacity: 30%;}
+    30%{opacity: 50%;}
+    40%{opacity: 60%;}
+    50%{opacity: 70%;}
+    60%{opacity: 90%;}
+    100%{opacity: 100%;}
+    
+}
+.simple-booking{
+    animation: movePhone 5s;
 }
 
 #msj1 {
-    animation: chatLive2 1s linear;
+    animation: chatLive2 3s linear;
     opacity: 1;
     transition: all;
 }
 
 @keyframes chatLive1 {
+    
     0% {
         opacity: 0;
     }
@@ -292,12 +343,13 @@
 }
 
 #msj2 {
-    animation: chatLive2 3s linear;
+    animation: chatLive2 6s linear;
     opacity: 1;
     transition: all;
 }
 
 @keyframes chatLive2 {
+    
     0% {
         opacity: 0;
 
@@ -313,7 +365,7 @@
 }
 
 #dog {
-    animation: chatLive3 6s linear;
+    animation: chatLive3 9s linear;
     opacity: 1;
     transition: all;
 }
@@ -338,7 +390,7 @@
 }
 
 #msj3 {
-    animation: chatLive2 8s linear;
+    animation: chatLive2 11s linear;
     opacity: 1;
     transition: all;
 }
@@ -363,7 +415,7 @@
 }
 
 #msj4 {
-    animation: chatLive2 10s linear;
+    animation: chatLive2 13s linear;
     opacity: 1;
     transition: all;
 }
@@ -392,7 +444,7 @@
 }
 
 #msj5 {
-    animation: chatLive2 12s linear;
+    animation: chatLive2 15s linear;
     opacity: 1;
     transition: all;
 }
@@ -421,7 +473,7 @@
 }
 
 #msj6 {
-    animation: chatLive2 14s linear;
+    animation: chatLive2 17s linear;
     opacity: 1;
     transition: all;
 }
